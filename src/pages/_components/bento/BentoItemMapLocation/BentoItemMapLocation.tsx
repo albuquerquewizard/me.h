@@ -8,8 +8,8 @@ import { Minus } from '@/components/icons/Minus'
 import { Plus } from '@/components/icons/Plus'
 import { cn } from '@/lib/utils'
 
-const LATITUDE = -6.147
-const LONGITUDE = 106.85
+const LATITUDE = 28.6139
+const LONGITUDE = 77.2090
 
 const ZOOM_STEP = 2
 const zoomOptions: ZoomPanOptions = {

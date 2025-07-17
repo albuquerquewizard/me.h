@@ -8,7 +8,7 @@ interface LastUpdatedTimeData {
 const getLastUpdatedTimeByFile = async (
   filePath: string
 ): Promise<LastUpdatedTimeData> => {
-  const API_URL = `https://api.github.com/repos/jestsee/jestsee.com/commits?`
+  const API_URL = `https://api.github.com/repos/albuquerquewizard/me.h/commits?`
 
   const params = new URLSearchParams({
     path: `src/content/${filePath}`,

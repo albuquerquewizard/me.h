@@ -8,6 +8,8 @@ import { mainMetaData } from '@/lib/metaData'
 import { SOCIAL_MEDIA_DATA } from '../socialMediaData'
 import LastUpdatedTime from './LastUpdatedTime.astro'
 
+// --- Begin: Commented out footer sections and links ---
+/*
 type FooterContent = {
   title: string
   links: {
@@ -66,6 +68,8 @@ const FOOTER_CONTENTS: FooterContent[] = [
     ]
   }
 ]
+*/
+// --- End: Commented out footer sections and links ---
 ---
 
 <footer class='relative mt-auto w-full'>
@@ -98,8 +102,8 @@ const FOOTER_CONTENTS: FooterContent[] = [
       <div class='space-y-24'>
         <div class='space-y-3'>
           <p class='text-lg leading-none text-zinc-200'>
-            <span class='tracking-widest'> 王安琪 </span>
-            <span class='mx-[2px]'>•</span> Jesica
+            <span class='tracking-widest'> ヒマンシュ </span>
+            <span class='mx-[2px]'>•</span> Himanshu
           </p>
           <p
             class='text-[13px] text-zinc-500'
@@ -109,7 +113,7 @@ const FOOTER_CONTENTS: FooterContent[] = [
         <div class='space-y-6'>
           <ul class='flex gap-3 text-zinc-200'>
             {
-              socialMediaData.map(({ icon: Icon, href, name }) => (
+              SOCIAL_MEDIA_DATA.map(({ icon: Icon, href, name }) => (
                 <li>
                   <Link
                     href={href}
@@ -124,45 +128,11 @@ const FOOTER_CONTENTS: FooterContent[] = [
             }
           </ul>
           <p class='text-xs text-zinc-500'>
-            &copy; {new Date().getFullYear()} Jesica. All rights reserved.
+            &copy; {new Date().getFullYear()} Himanshu. All rights reserved.
           </p>
         </div>
       </div>
-
-      <div
-        class:list={[
-          'flex flex-col justify-between max-xs:gap-16',
-          'max-[960px]:flex-col-reverse max-[960px]:gap-12',
-          'text-zinc-200'
-        ]}
-      >
-        <div
-          class='grid grid-cols-3 gap-y-16 max-[960px]:max-w-[480px] max-xs:grid-cols-2 sm:gap-24'
-        >
-          {
-            FOOTER_CONTENTS.map(({ title, links }) => (
-              <div class='space-y-4'>
-                <p class='text-zinc-200'>{title}</p>
-                <ul class='flex flex-col gap-3 text-zinc-400'>
-                  {links.map(({ text, href, withIcon, inNewTab }) => (
-                    <li>
-                      <Link
-                        href={href}
-                        target={inNewTab ? '_blank' : '_self'}
-                        class='flex items-center gap-1 font-normal hover:text-zinc-200'
-                      >
-                        <span>{text}</span>
-                        {withIcon && <ArrowOutward className='size-3' />}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))
-          }
-        </div>
-        <LastUpdatedTime class='text-zinc-500' />
-      </div>
+      <LastUpdatedTime class='text-zinc-500' />
     </div>
   </div>
 </footer>

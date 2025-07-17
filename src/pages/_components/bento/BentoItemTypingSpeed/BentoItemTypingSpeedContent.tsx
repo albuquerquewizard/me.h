@@ -47,7 +47,7 @@ interface Props extends MonkeyTypeData {}
 const TypingSpeed = (props: Props) => {
   return (
     <a
-      href='https://monkeytype.com/profile/jestsee_'
+      href='https://monkeytype.com/profile/albuquerquewiz'
       target='_blank'
       className='relative flex h-full flex-col justify-between overflow-hidden rounded-3xl px-5 pb-6 pt-4 max-md:gap-12'
     >

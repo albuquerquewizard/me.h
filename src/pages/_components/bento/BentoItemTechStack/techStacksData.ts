@@ -23,12 +23,12 @@ type TechStack = {
 }
 
 const techStacks: TechStack[] = [
-  {
-    name: 'TypeScript',
-    icon: TypeScript,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
+  // {
+  //   name: 'TypeScript',
+  //   icon: TypeScript,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
   {
     name: 'Next',
     icon: NextJs,
@@ -41,78 +41,78 @@ const techStacks: TechStack[] = [
     description:
       'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
   },
-  {
-    name: 'React Query',
-    icon: Reactquery,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
+  // {
+  //   name: 'React Query',
+  //   icon: Reactquery,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
   {
     name: 'Tailwind',
     icon: Tailwindcss,
     description:
       'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
   },
-  {
-    name: 'SWR',
-    icon: Swr,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Puppeteer',
-    icon: Puppeteer,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Jest',
-    icon: Jest,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Prisma',
-    icon: Prisma,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Drizzle',
-    icon: Drizzle,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Nest',
-    icon: Nestjs,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Hono',
-    icon: Hono,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Astro',
-    icon: Astro,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Vue',
-    icon: Vuejs,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
-  {
-    name: 'Nuxt',
-    icon: Nuxtjs,
-    description:
-      'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
-  },
+  // {
+  //   name: 'SWR',
+  //   icon: Swr,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Puppeteer',
+  //   icon: Puppeteer,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Jest',
+  //   icon: Jest,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Prisma',
+  //   icon: Prisma,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Drizzle',
+  //   icon: Drizzle,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Nest',
+  //   icon: Nestjs,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Hono',
+  //   icon: Hono,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Astro',
+  //   icon: Astro,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Vue',
+  //   icon: Vuejs,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
+  // {
+  //   name: 'Nuxt',
+  //   icon: Nuxtjs,
+  //   description:
+  //     'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+  // },
   {
     name: 'Docker',
     icon: Docker,
